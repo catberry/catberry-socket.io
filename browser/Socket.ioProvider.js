@@ -28,7 +28,8 @@ class SocketIoProvider {
 	}
 
 	connectToServer(url, options) {
-		this.socket = this._socketIo(url, options || this._socketIoOptions);
+		options = options || this._socketIoOptions || {};
+		this.socket = this._socketIo(url, options);
 		this.socket.on('connect', function(){
 			this._logger.info('Connected to websocket server.')
 		}.bind(this));
