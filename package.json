@@ -1,7 +1,7 @@
 {
 	"name": "catberry-socket.io",
 	"description": "Catberry adapter for Socket.io engine",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"author": {
 		"email": "miha.vizovisek@gmail.com",
 		"name": "Miha Vizovišek"
