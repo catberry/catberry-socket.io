@@ -1,50 +1,50 @@
 {
 	"name": "catberry-socket.io",
-  "description": "Catberry adapter for Socket.io engine",
-	"version": "1.1.0",
-  "author": {
-    "email": "miha.vizovisek@gmail.com",
-    "name": "Miha Vizovišek"
-  },
-  "contributors": [
-    {
-      "email": "miha.vizovisek@gmail.com",
-      "name": "Miha Vizovišek"
-    }
-  ],
-  "homepage": "http://socket.io/",
-  "main": "./index.js",
-  "browser": {
-    "./lib/Socket.ioProvider.js": "./browser/Socket.ioProvider.js",
-    "./lib/socket.io.js": "./browser/socket.io.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/catberry/catberry-socket.io.git"
-  },
-  "keywords": [
-    "socket.io",
-    "websockets",
-    "real time",
-    "catberry"
-  ],
-  "dependencies": {
-    "socket.io": "^1.4.5",
-    "socket.io-client": "^1.4.5"
-  },
-  "peerDependencies": {
-    "catberry": "^8.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^2.0.0"
-  },
-  "scripts": {
-    "lint-fix": "eslint ./ --fix",
-    "test": "eslint ./"
-  },
-  "license": "MIT",
-  "engine": {
-    "node": ">=4"
-  },
-  "readmeFilename": "README.md"
+	"description": "Catberry adapter for Socket.io engine",
+	"version": "1.1.1",
+	"author": {
+		"email": "miha.vizovisek@gmail.com",
+		"name": "Miha Vizovišek"
+	},
+	"contributors": [
+		{
+			"email": "miha.vizovisek@gmail.com",
+			"name": "Miha Vizovišek"
+		}
+	],
+	"homepage": "http://socket.io/",
+	"main": "./index.js",
+	"browser": {
+		"./lib/Socket.ioProvider.js": "./browser/Socket.ioProvider.js",
+		"./lib/socket.io.js": "./browser/socket.io.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/catberry/catberry-socket.io.git"
+	},
+	"keywords": [
+		"socket.io",
+		"websockets",
+		"real time",
+		"catberry"
+	],
+	"dependencies": {
+		"socket.io": "^1.7.3",
+		"socket.io-client": "^1.7.3"
+	},
+	"peerDependencies": {
+		"catberry": "^8.0.0 || ^9.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^3.18.0"
+	},
+	"scripts": {
+		"lint-fix": "eslint ./ --fix",
+		"test": "eslint ./"
+	},
+	"license": "MIT",
+	"engine": {
+		"node": ">=4"
+	},
+	"readmeFilename": "README.md"
 }
