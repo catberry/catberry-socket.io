@@ -57,4 +57,4 @@ There are a lot of ways to contribute:
 
 Miha Vizovišek <miha.vizovisek@gmail.com>
 
-Denis Rechkunov <denis.rechkunov@gmail.com>
+Denis Rechkunov <denis@rdner.de>
